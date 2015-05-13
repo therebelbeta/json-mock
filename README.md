@@ -20,15 +20,31 @@ The API is ever expanding, to allow for more advanced features. If you have a ne
 please open an issue and I'll take a look. Refer below to the Roadmap to see what's coming.
 
 ## Table of Contents
-> 
-> 
-> 
-> 
-> 
-> 
-> 
-> 
->
+
+> * [Install](#install)
+> * [Rest Routes](#rest-routes)
+>   * [Normal Slash Routing (e.g. `/user/12/posts`)](#normal-slash-routing)
+>   * [Query String Routing](#query-string-routing)
+>   * [Pagination](#pagination)
+>   * [Sorting](#sorting)
+>   * [Full Text Searching](#full-text-searching)
+>   * [Reserved Routes](#reserved-routes)
+> * [Additional Features](#additional-features)
+>   * [Static File Server](#static-file-server)
+>   * [CORS / JSONP](#cors--jsonp)
+>   * [Remote Schemas](#remote-schemas)
+>   * [Dynamic Data](#dynamic-data)
+>   * [Programmatic Use](#programmatic-use)
+>   * [Deployment](#deployment)
+> * [Purpose](#purpose)
+> * [Roadmap](#roadmap)
+> * [Contributing](#contributing)
+>   * [Contributors](#contributors)
+> * [Changelog](#changelog)
+>   * [Unreleased](#unreleased)
+>   * [v0.1.0 Initial Release 2015-05-13](#v010---initial-release---2015-05-13)
+>     * [Added](#added)
+> * [License](#license)
 
 ## Install
 
