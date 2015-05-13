@@ -1,7 +1,7 @@
 {
-  "name": "json-server",
-  "version": "0.7.3",
-  "description": "Serves JSON files through REST routes.",
+  "name": "json-mock",
+  "version": "0.1.0",
+  "description": "Mock a REST API using just JSON. An advanced fork of typicode/json-server",
   "main": "./src/index.js",
   "bin": "./bin/index.js",
   "directories": {
@@ -26,20 +26,24 @@
   },
   "devDependencies": {
     "husky": "^0.6.1",
+    "istanbul": "^0.3.14",
     "mocha": "^2.2.4",
     "supertest": "~0.8.1"
   },
   "scripts": {
-    "test": "mocha -R spec test",
+    "test": "./node_modules/istanbul/lib/cli.js cover _mocha --",
     "start": "node server.js",
     "prepush": "npm t"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/typicode/json-server.git"
+    "url": "git://github.com/therebelrobot/json-mock.git"
   },
   "keywords": [
     "JSON",
+    "advanced",
+    "expanded",
+    "nested",
     "server",
     "fake",
     "REST",
@@ -54,10 +58,13 @@
     "dummy",
     "sandbox"
   ],
-  "author": "Typicode <typicode@gmail.com>",
+  "author": "Trent Oswald (@therebelrobot) <trentoswald@therebelrobot.com>",
+  "contributors":[
+    "Typicode <typicode@gmail.com> (original typicode/json-server fork)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/typicode/json-server/issues"
+    "url": "https://github.com/therebelrobot/json-mock/issues"
   },
-  "homepage": "https://github.com/typicode/json-server"
+  "homepage": "https://github.com/therebelrobot/json-mock"
 }
