@@ -246,7 +246,7 @@ module.exports = function (source) {
     _(removable).each(function (item) {
       db(item.name).remove(item.id)
     })
-    res.status(200).jsonp({})
+    res.status(204).jsonp({})
   }
 
 

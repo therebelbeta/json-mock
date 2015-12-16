@@ -327,7 +327,7 @@ describe('Server', function() {
       request(server)
         .del('/posts/1')
         .expect({})
-        .expect(200)
+        .expect(204)
         .end(function(err, res) {
           if (err) return done(err)
           assert.equal(db.posts.length, 1)
