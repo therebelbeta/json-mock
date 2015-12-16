@@ -61,7 +61,7 @@ Create a `db.json` file
   "users": [
     { "id": 1, "name": "therebelrobot", "location": "USA"},
     { "id": 2, "name": "visiting-user", "location": "UK"}
-  ]
+  ],
   "posts": [
     { "id": 1, "title": "json-mock", "body":"The internet is cool!", "author": "therebelrobot", "userId": 1 }
   ],
