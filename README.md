@@ -1,22 +1,22 @@
 # JSON Mock
 
-[![](https://badge.fury.io/js/json-mock.svg)](http://badge.fury.io/js/json-mock) 
+[![](https://badge.fury.io/js/json-mock.svg)](http://badge.fury.io/js/json-mock)
 [![Join the chat at https://gitter.im/therebelrobot/json-mock](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/therebelrobot/json-mock?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[![Build Status](https://travis-ci.org/therebelrobot/json-mock.svg)](https://travis-ci.org/therebelrobot/json-mock) 
+[![Build Status](https://travis-ci.org/therebelrobot/json-mock.svg)](https://travis-ci.org/therebelrobot/json-mock)
 [![Dependency Status](https://david-dm.org/therebelrobot/json-mock.svg)](https://david-dm.org/therebelrobot/json-mock)
 [![Code Climate](https://codeclimate.com/github/therebelrobot/json-mock/badges/gpa.svg)](https://codeclimate.com/github/therebelrobot/json-mock)
 [![Test Coverage](https://codeclimate.com/github/therebelrobot/json-mock/badges/coverage.svg)](https://codeclimate.com/github/therebelrobot/json-mock)
 
 > Get a full mock REST API with __zero coding__ in __less than 30 seconds__ (seriously)
 
-Created with <3 for front-end developers who need a quick back-end for prototyping and mocking. 
+Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.
 
-*This is a fork of [typicode/json-server](http://github.com/typicode/json-server). Typicode expressed 
-[a desire to keep the json-server API simple](https://github.com/typicode/json-server/pull/82#issuecomment-101393288), 
+*This is a fork of [typicode/json-server](http://github.com/typicode/json-server). Typicode expressed
+[a desire to keep the json-server API simple](https://github.com/typicode/json-server/pull/82#issuecomment-101393288),
 hence this fork. Refer to Purpose section below.*
 
-The API is ever expanding, to allow for more advanced features. If you have a need that isn't being met, 
+The API is ever expanding, to allow for more advanced features. If you have a need that isn't being met,
 please open an issue and I'll take a look. Refer below to the Roadmap to see what's coming.
 
 ## Table of Contents
@@ -252,8 +252,8 @@ These are some features that are on my plate to add to json-mock. They will be a
 
 Contributing is more than welcome. The API is ever expanding, to allow for more advanced features. Before beginning, please review the guidelines below to maximize your efforts:
 
-* Make sure you review the feross/standard styling and make sure your additions comply with it. 
-* Before starting a large change, make sure you either open a github issue about it or find a current issue in regards to it,make sure we aren't duplicating efforts. 
+* Make sure you review the feross/standard styling and make sure your additions comply with it.
+* Before starting a large change, make sure you either open a github issue about it or find a current issue in regards to it,make sure we aren't duplicating efforts.
 * Fork the repo, make changes in your fork.
 * Make sure any changes have an additional tests added for them in `./test`
 * Make sure your new tests and all others pass when running `npm test`
@@ -273,6 +273,8 @@ All notable changes to this project will be documented in this section.
 
 ### Unreleased
 
+* Return a 204 No Content status code when a DELETE request is made
+
 ### v0.1.0 - Initial Release - 2015-05-13
 #### Added
 
@@ -291,4 +293,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
